@@ -7,13 +7,17 @@ class UsersController < ApplicationController
         @name = "I am the New action!"
 
       end 
-      def edit 
-        @name = "I am the Edit action!"
-
-      end 
 
       def show 
         @name = "I am the Show action!"
-
       end
+      
+      def edit
+        @name = "I am the Edit action!"
+      end 
+
+      def create
+        @name = "I am the create action!"
+      end
+
 end
